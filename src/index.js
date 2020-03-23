@@ -1,4 +1,3 @@
-
 import './js/common'
 import './assets/scss/main.scss'
 // import 'vue'
@@ -7,9 +6,10 @@ import './assets/scss/main.scss'
 window.Vue = require('vue')
 import store from './store/index'
 
-Vue.component('example-component', require('./components/example.vue').default)
+// components
+// Vue.component('example-component', require('./components/example.vue').default)
 
-const app = new Vue ({
+const app = new Vue({
 	data() {
 		return {
 			component: false
